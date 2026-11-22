@@ -1,0 +1,19 @@
+{
+  "name": "aave-v2-variable-debt-tokens-module",
+  "version": "1.0.0",
+  "description": "Address tags for Aave V2 variable debt token contracts on Avalanche, read from Aave's official subgraph on The Graph Network.",
+  "type": "module",
+  "main": "main.mjs",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "atq-types": "^1.1.5",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5"
+  }
+}
